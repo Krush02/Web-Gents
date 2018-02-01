@@ -8,12 +8,33 @@ Light (Snow):                    #FBF6F9
 Dark (Eerie Black):              #191923 
 -------------------- */
 
-
-.banner-img {
-	width: 50%;
-	height: auto;
+.opaque {
+	opacity: 0.8;
 }
 
 .margin-right {
 	margin-right: 1em;
+}
+
+
+.banner {
+	height: 100vh;
+	margin: 0;
+	background-image: url("../images/black-leather.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FBF6F9;
+	border-radius: 0;
+}
+.move-down {
+	top: 0;
+	position: relative;
+	transition: 300ms ease;
+	color: #FBF6F9;
+}
+
+.move-down:hover {
+	top:10px;
+	color: #FF7000;
 }
