@@ -1,0 +1,19 @@
+/* CSS Document */
+
+/* --- Color Palette --- 
+Primary (Safety Orange):         #FF7000
+Secondary (Star Command Blue):   #0E79B2
+Tertiary (Rose Red):             #BF1363
+Light (Snow):                    #FBF6F9
+Dark (Eerie Black):              #191923 
+-------------------- */
+
+
+.banner-img {
+	width: 50%;
+	height: auto;
+}
+
+.margin-right {
+	margin-right: 1em;
+}

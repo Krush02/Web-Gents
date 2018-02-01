@@ -1082,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1183,8 +1183,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
+  font-family: "Raleway";
+  font-weight: 400;
   line-height: 1.1;
   color: inherit;
 }
@@ -3114,9 +3114,10 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: #FBF6F9;
+  background-color: #0E79B2;
+  border-color: #0E79B2;
+  transition: 300ms ease-out;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3125,9 +3126,9 @@ fieldset[disabled] .btn-default.focus {
   border-color: #122b40;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  color: #0E79B2;
+  background-color: #FBF6F9;
+  border-color: #0E79B2;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -6753,5 +6754,9 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.img-fluid {
+	max-width: 100%;
+	height: auto;
 }
 /*# sourceMappingURL=bootstrap.css.map */
