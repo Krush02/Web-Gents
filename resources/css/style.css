@@ -7,25 +7,42 @@ Tertiary (Rose Red):             #BF1363
 Light (Snow):                    #FBF6F9
 Dark (Eerie Black):              #191923 
 -------------------- */
+body {
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: raleway;
+}
+
+p, span, a {
+	font-family: "open sans";
+}
 
 .opaque {
 	opacity: .8;
+}
+
+.margin-left {
+    margin-left: 1em;
 }
 
 .margin-right {
 	margin-right: 1em;
 }
 
-.banner {
-	height: 100vh;
-	margin: 0;
-	background-image: url("../images/AdobeStock_83129477.jpeg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: #FBF6F9;
-	border-radius: 0;
+.margin-top {
+    margin-top: 2em;
 }
+
+.margin-bottom {
+    margin-bottom: 2em;
+}
+
+.container {
+    padding: 5em 0 !important;
+}
+
 .move-down {
 	top: 0;
 	position: relative;
@@ -44,4 +61,70 @@ Dark (Eerie Black):              #191923
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+}
+
+.banner {
+	height: 100vh;
+	margin: 0;
+	background-image: url("../images/landing-bg.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FBF6F9;
+	border-radius: 0;
+}
+
+.nav-link {
+	transition: color 300ms ease !important;
+	font-size: 1.25em !important;
+}
+
+.nav-link.active {
+	color: #FBF6F9 !important;
+}
+
+/* --- Return to top button formatting --- */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: #FF7000;
+    opacity: 0.7;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all 350ms linear;
+    -moz-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: #FF7000;
+    opacity: 1;
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
 }
