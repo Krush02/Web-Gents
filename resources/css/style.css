@@ -9,38 +9,29 @@ Dark (Eerie Black):              #191923
 -------------------- */
 body {
 	position: relative;
+	background-image: url('../images/to-the-moon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: "open sans";
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: raleway;
-}
-
-p, span, a {
-	font-family: "open sans";
+	font-family: raleway !important;
 }
 
 .opaque {
 	opacity: .8;
 }
 
-.margin-left {
-    margin-left: 1em;
+section {
+	background-color: #FDF6F9;
 }
 
-.margin-right {
-	margin-right: 1em;
-}
-
-.margin-top {
-    margin-top: 2em;
-}
-
-.margin-bottom {
-    margin-bottom: 2em;
-}
-
-.container {
-    padding: 5em 0 !important;
+.parallax {
+	background-color: rgba(0,0,0,.65);
+	color: #FDF6F9;
 }
 
 .move-down {
@@ -70,6 +61,7 @@ p, span, a {
 	background-size: cover;
 	background-position:center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: #FBF6F9;
 	border-radius: 0;
 }
@@ -132,5 +124,22 @@ p, span, a {
 /* Carousel styling */
 .carousel-item img {
 	height: 50vh;
-	object-fit: cover;
+	object-fit:fill;
+}
+
+.footer {
+	background-image:url('../images/footer-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	color: #fdf6f9;
+}
+
+hr {
+	margin: 0;
+	background-color: #fdf6f9;
+}
+
+.carousel-indicators li:hover, .carousel-control-next:hover, .carousel-control-prev:hover {
+	cursor: pointer;
 }
